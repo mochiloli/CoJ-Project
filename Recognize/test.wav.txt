@@ -1,0 +1,233 @@
+ทดสอบ 1 ทดสอบ 2  ทดสอบป 3  ฟุตซอล 4  ทดสอบป 5 
+
+Transcript : ทดสอบ 1 ทดสอบ 2 
+ทด
+	0.3sec - 0.9 sec
+สอบ
+	0.9sec - 1.1 sec
+1
+	1.1sec - 2.0 sec
+ทด
+	2.0sec - 3.7 sec
+สอบ
+	3.7sec - 4.3 sec
+2
+	4.3sec - 5.3 sec
+JSON : 
+transcript: "\340\270\227\340\270\224\340\270\252\340\270\255\340\270\232 1 \340\270\227\340\270\224\340\270\252\340\270\255\340\270\232 2 "
+confidence: 0.9140044
+words {
+  start_time {
+    nanos: 300000000
+  }
+  end_time {
+    nanos: 900000000
+  }
+  word: "\340\270\227\340\270\224"
+}
+words {
+  start_time {
+    nanos: 900000000
+  }
+  end_time {
+    seconds: 1
+    nanos: 100000000
+  }
+  word: "\340\270\252\340\270\255\340\270\232"
+}
+words {
+  start_time {
+    seconds: 1
+    nanos: 100000000
+  }
+  end_time {
+    seconds: 2
+  }
+  word: "1"
+}
+words {
+  start_time {
+    seconds: 2
+  }
+  end_time {
+    seconds: 3
+    nanos: 700000000
+  }
+  word: "\340\270\227\340\270\224"
+}
+words {
+  start_time {
+    seconds: 3
+    nanos: 700000000
+  }
+  end_time {
+    seconds: 4
+    nanos: 300000000
+  }
+  word: "\340\270\252\340\270\255\340\270\232"
+}
+words {
+  start_time {
+    seconds: 4
+    nanos: 300000000
+  }
+  end_time {
+    seconds: 5
+    nanos: 300000000
+  }
+  word: "2"
+}
+
+=========================================================
+
+
+Transcript :  ทดสอบป 3 
+ทด
+	6.6sec - 7.1 sec
+สอบ
+	7.1sec - 7.4 sec
+ป
+	7.4sec - 8.1 sec
+3
+	8.1sec - 8.4 sec
+JSON : 
+transcript: " \340\270\227\340\270\224\340\270\252\340\270\255\340\270\232\340\270\233 3 "
+confidence: 0.93461597
+words {
+  start_time {
+    seconds: 6
+    nanos: 600000000
+  }
+  end_time {
+    seconds: 7
+    nanos: 100000000
+  }
+  word: "\340\270\227\340\270\224"
+}
+words {
+  start_time {
+    seconds: 7
+    nanos: 100000000
+  }
+  end_time {
+    seconds: 7
+    nanos: 400000000
+  }
+  word: "\340\270\252\340\270\255\340\270\232"
+}
+words {
+  start_time {
+    seconds: 7
+    nanos: 400000000
+  }
+  end_time {
+    seconds: 8
+    nanos: 100000000
+  }
+  word: "\340\270\233"
+}
+words {
+  start_time {
+    seconds: 8
+    nanos: 100000000
+  }
+  end_time {
+    seconds: 8
+    nanos: 400000000
+  }
+  word: "3"
+}
+
+=========================================================
+
+
+Transcript :  ฟุตซอล 4 
+ฟุตซอล
+	9.8sec - 11.1 sec
+4
+	11.1sec - 11.6 sec
+JSON : 
+transcript: " \340\270\237\340\270\270\340\270\225\340\270\213\340\270\255\340\270\245 4 "
+confidence: 0.94121534
+words {
+  start_time {
+    seconds: 9
+    nanos: 800000000
+  }
+  end_time {
+    seconds: 11
+    nanos: 100000000
+  }
+  word: "\340\270\237\340\270\270\340\270\225\340\270\213\340\270\255\340\270\245"
+}
+words {
+  start_time {
+    seconds: 11
+    nanos: 100000000
+  }
+  end_time {
+    seconds: 11
+    nanos: 600000000
+  }
+  word: "4"
+}
+
+=========================================================
+
+
+Transcript :  ทดสอบป 5 
+ทด
+	13.0sec - 13.6 sec
+สอบ
+	13.6sec - 13.9 sec
+ป
+	13.9sec - 14.7 sec
+5
+	14.7sec - 15.0 sec
+JSON : 
+transcript: " \340\270\227\340\270\224\340\270\252\340\270\255\340\270\232\340\270\233 5 "
+confidence: 0.9562187
+words {
+  start_time {
+    seconds: 13
+  }
+  end_time {
+    seconds: 13
+    nanos: 600000000
+  }
+  word: "\340\270\227\340\270\224"
+}
+words {
+  start_time {
+    seconds: 13
+    nanos: 600000000
+  }
+  end_time {
+    seconds: 13
+    nanos: 900000000
+  }
+  word: "\340\270\252\340\270\255\340\270\232"
+}
+words {
+  start_time {
+    seconds: 13
+    nanos: 900000000
+  }
+  end_time {
+    seconds: 14
+    nanos: 700000000
+  }
+  word: "\340\270\233"
+}
+words {
+  start_time {
+    seconds: 14
+    nanos: 700000000
+  }
+  end_time {
+    seconds: 15
+  }
+  word: "5"
+}
+
+=========================================================
